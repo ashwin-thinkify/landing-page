@@ -22,29 +22,31 @@ const Header = () => {
       >
         <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-3 sm:py-4">
           <div className="col-start-1 col-end-2 flex items-center">
-            <img src={LogoVPN} alt="logo"/>
             {/* <LogoVPN 
                 // className="w-auto bg-indigo-700"
              /> */}
+             <div className={'border-4 border-indigo-700 px-3 p-1'}>
+               <span className={'text-xl font-bold uppercase text-indigo-700'}>T</span>
+             </div>
           </div>
           <ul className="hidden lg:flex col-start-4 col-end-8 text-black-500  items-center">
             <LinkScroll
               activeClass="active"
-              to="about"
+              to="apply"
               spy={true}
               smooth={true}
               duration={1000}
               onSetActive={() => {
-                setActiveLink("about");
+                setActiveLink("apply");
               }}
               className={
                 "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
-                (activeLink === "about"
+                (activeLink === "apply"
                   ? " text-indigo-700 animation-active "
                   : " text-black-500 hover:text-indigo-700 a")
               }
             >
-              About
+              Apply
             </LinkScroll>
             <LinkScroll
               activeClass="active"
@@ -118,16 +120,16 @@ const Header = () => {
           <ul className="flex w-full justify-between items-center text-black-500">
             <LinkScroll
               activeClass="active"
-              to="about"
+              to="apply"
               spy={true}
               smooth={true}
               duration={1000}
               onSetActive={() => {
-                setActiveLink("about");
+                setActiveLink("apply");
               }}
               className={
                 `mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all ` +
-                (activeLink === "about"
+                (activeLink === "apply"
                   ? "  border-indigo-700 text-indigo-700"
                   : " border-transparent")
               }
@@ -146,7 +148,7 @@ const Header = () => {
                   d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
-              About
+              Apply
             </LinkScroll>
             <LinkScroll
               activeClass="active"

@@ -19,22 +19,22 @@ const Feature = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col items-end justify-center ml-auto w-full lg:w-9/12">
+        <div className="flex flex-col items-end justify-center ml-auto w-full">
           <h3 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
-            We Provide Technology Enabled Solution Delivery
+            Acceletate with Technology.
           </h3>
-          <ul className="text-black-500 self-start list-inside ml-8">
+          <ul className="text-black-500 self-center list-inside ml-8 text-center mt-4">
             <li className="relative circle-check custom-list">
               Managed services.
             </li>
             <li className="relative circle-check custom-list">
-              Provide resources to get the ground running.
+              Staff augmentation.
             </li>
             <li className="relative circle-check custom-list">
-              Recruting Help.
+              Interview as a Service.
             </li>
             <li className="relative circle-check custom-list">
-              Coaching to crack interview.
+               India office Setup.
             </li>
           </ul>
         </div>
