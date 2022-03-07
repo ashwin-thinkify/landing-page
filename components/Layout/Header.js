@@ -13,17 +13,18 @@ const Header = () => {
       setScrollActive(window.scrollY > 20);
     });
   }, []);
+  const headerWrapper = scrollActive ? 'shadow-md pt-0' : 'pt-4';
   return (
     <>
       <header
         className={
-          "fixed top-0 w-full  z-30 bg-white-500 transition-all " +
-          (scrollActive ? " shadow-md pt-0" : " pt-4")
-        }
+          `fixed top-0 w-full  z-30 bg-white-500 transition-all ${headerWrapper}`}
       >
         <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-3 sm:py-4">
           <div className="col-start-1 col-end-2 flex items-center">
-            <LogoVPN className="w-auto bg-indigo-700" />
+            {/* <LogoVPN 
+                // className="w-auto bg-indigo-700"
+             /> */}
           </div>
           <ul className="hidden lg:flex col-start-4 col-end-8 text-black-500  items-center">
             <LinkScroll
@@ -124,7 +125,7 @@ const Header = () => {
                 setActiveLink("about");
               }}
               className={
-                "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
+                `mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all ` +
                 (activeLink === "about"
                   ? "  border-indigo-700 text-indigo-700"
                   : " border-transparent")
