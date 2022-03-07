@@ -112,7 +112,7 @@ const Testimoni = ({
                 <div className="flex flex-none items-center ml-auto order-1 xl:order-2">
                   <p className="text-sm">{listTestimonis.rating}</p>
                   <span className="flex ml-4">
-                    <Stars className="h-4 w-4" />
+                    {/* <Stars className="h-4 w-4" /> */}
                   </span>
                 </div>
               </div>
@@ -127,13 +127,13 @@ const Testimoni = ({
             className="mx-4 flex items-center justify-center h-14 w-14 rounded-full bg-white border-indigo-700 border hover:bg-indigo-700 hover:text-white-500 transition-all text-indigo-700 cursor-pointer"
             onClick={sliderRef?.slickPrev}
           >
-            <ArrowBack className="h-6 w-6 " />
+            {/* <ArrowBack className="h-6 w-6 " /> */}
           </div>
           <div
             className="flex items-center justify-center h-14 w-14 rounded-full bg-white border-indigo-700 border hover:bg-indigo-700 hover:text-white-500 transition-all text-indigo-700 cursor-pointer"
             onClick={sliderRef?.slickNext}
           >
-            <ArrowNext className="h-6 w-6" />
+            {/* <ArrowNext className="h-6 w-6" /> */}
           </div>
         </div>
       </div>

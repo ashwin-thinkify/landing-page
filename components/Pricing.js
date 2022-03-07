@@ -21,7 +21,7 @@ const Pricing = () => {
             locations.
           </p>
           <div className="py-12 w-full px-8 mt-16">
-            <Maps className="w-full h-auto" />
+            {/* <img src={Maps} className="w-full h-auto" /> */}
           </div>
           <div className="w-full flex justify-evenly items-center mt-4 flex-wrap lg:flex-nowrap">
             {/* <Netflix className="h-18 w-auto" /> */}
