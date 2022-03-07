@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+
 import ButtonPrimary from "./misc/ButtonPrimary";
 const Hero = ({
   listUser = [
@@ -34,7 +34,7 @@ const Hero = ({
         </div>
         <div className="flex w-full">
           <div className="h-full w-full">
-            <Image
+            <img
               src="/assets/one.svg"
               alt="VPN Illustrasi"
               quality={100}
