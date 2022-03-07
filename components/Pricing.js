@@ -42,7 +42,7 @@ const Pricing = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col w-full my-16" id="testimoni">
+        {/* <div className="flex flex-col w-full my-16" id="testimoni">
           <h3 className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-normal w-9/12 sm: lg:w-4/12 mx-auto">
             Trusted by Thousands of Employees{" "}
           </h3>
@@ -68,7 +68,7 @@ const Pricing = () => {
               style={{ filter: "blur(114px)" }}
             ></div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

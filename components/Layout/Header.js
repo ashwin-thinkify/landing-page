@@ -22,6 +22,7 @@ const Header = () => {
       >
         <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-3 sm:py-4">
           <div className="col-start-1 col-end-2 flex items-center">
+            <img src={LogoVPN} alt="logo"/>
             {/* <LogoVPN 
                 // className="w-auto bg-indigo-700"
              /> */}
@@ -100,14 +101,14 @@ const Header = () => {
               Testimonial
             </LinkScroll>
           </ul>
-          <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
+          {/* <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
             <Link href="/">
               <a className="text-black-600 mx-2 sm:mx-4 capitalize tracking-wide hover:text-indigo-700 transition-all">
                   Sign In
               </a>
             </Link>
             <ButtonOutline>Sign Up</ButtonOutline>
-          </div>
+          </div> */}
         </nav>
       </header>
       {/* Mobile Navigation */}
